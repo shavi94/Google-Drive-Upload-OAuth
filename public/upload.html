@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Google Upload App</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="/main.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script src="/upload.js"></script>
+</head>
+<body>
+        <header class="masthead">
+                <div class="container h-100">
+                  <div class="row h-100 align-items-center">
+                    <div class="col-12 text-center">
+                      <h1 class="font-weight-light">Google Drive Upload</h1>
+                      <p class="lead">Upload files to your google drive</p>
+                    </div>
+                  </div>
+
+   <div>
+        <input id="files" type="file" name="files[]" multiple/>
+        <button id="upload">Upload</button>
+      </div> 
+      <div id="result">
+          
+      </div>
+                </div>
+              </header>
+</body>
+</html>
