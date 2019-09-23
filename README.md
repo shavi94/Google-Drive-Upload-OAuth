@@ -10,5 +10,5 @@ upload file to your google drive using OAuth
 6. Now Google Drive Upload app will be available at localhost:9000 (your port instead of 9000)<br>
 7. Go to the 'localhost:9000' on your browser. <br>
 
-# That's it
+# That's it...
 
